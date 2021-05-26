@@ -1,0 +1,49 @@
+{
+  "name": "rexs-site",
+  "version": "1.0.0",
+  "description": "A website showcasing REXS.",
+  "main": "bundle.js",
+  "scripts": {
+    "build": "npx next build && npx next export -o dist/ && npx touch dist/.nojekyll && echo rexs.js.org > dist/CNAME"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uellenberg/REXS-Site.git"
+  },
+  "author": "Jonah Uellenberg",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/uellenberg/REXS-Site/issues"
+  },
+  "homepage": "https://github.com/uellenberg/REXS-Site#readme",
+  "dependencies": {
+    "@chakra-ui/react": "^1.6.1",
+    "@emotion/react": "^11",
+    "@emotion/styled": "^11",
+    "@fontsource/abhaya-libre": "^4.3.0",
+    "@fontsource/alata": "^4.3.0",
+    "@fontsource/open-sans": "^4.3.0",
+    "@types/jquery": "^3.5.5",
+    "@types/prismjs": "^1.16.5",
+    "@types/react": "^17.0.5",
+    "decimalsystem": "^1.0.10",
+    "framer-motion": "^4",
+    "gray-matter": "^4.0.3",
+    "ncp": "^2.0.0",
+    "next": "^10.2.0",
+    "prismjs": "^1.23.0",
+    "raw-loader": "^4.0.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-icons": "^4.2.0",
+    "react-markdown": "^6.0.2",
+    "react-runkit": "^0.9.0",
+    "remark-gfm": "^1.0.0",
+    "sass": "^1.32.12",
+    "touch": "^3.1.0",
+    "ts-loader": "^9.1.1",
+    "typescript": "^4.2.4",
+    "webpack": "^5.36.2",
+    "webpack-cli": "^4.6.0"
+  }
+}
