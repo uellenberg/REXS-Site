@@ -1,4 +1,4 @@
-const path = require('path')
+const path = require('path');
 
 module.exports = {
     sassOptions: {
@@ -12,6 +12,10 @@ module.exports = {
             test: /\.md[x]?$/,
             use: "raw-loader"
         });
+        config.node = {
+            fs: "empty"
+        }
+
         return config;
     }
 }
