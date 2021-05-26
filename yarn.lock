@@ -1685,11 +1685,6 @@ debug@^4.0.0:
   dependencies:
     ms "2.1.2"
 
-decimalsystem@^1.0.10:
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/decimalsystem/-/decimalsystem-1.1.1.tgz#015be9bf8b60981ffd5e1f70ca9da2e5fe8d376a"
-  integrity sha512-0TczTAEgQ6/k4mSYaClcOqVR3e4ckLuX2p6RY8zmUurYvkcZoeB2+QQaieRwEgl0agNZ2OC7AVzq+55nTPW1Cg==
-
 define-properties@^1.1.3:
   version "1.1.3"
   resolved "https://registry.yarnpkg.com/define-properties/-/define-properties-1.1.3.tgz#cf88da6cbee26fe6db7094f61d870cbd84cee9f1"
@@ -3055,6 +3050,11 @@ parse-json@^5.0.0:
     json-parse-even-better-errors "^2.3.0"
     lines-and-columns "^1.1.6"
 
+parselib@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/parselib/-/parselib-1.0.0.tgz#681a25a4614c75a8bb211b1786a90e33d1e48c02"
+  integrity sha512-G+pcgRKqcJKODRBJdIKxJh2IQPUUB4/HCNG0uAcubPg1pD1eFEHu66mNnF95jRW/Kv17nnzpeEi69gcWSWteRA==
+
 path-browserify@0.0.1:
   version "0.0.1"
   resolved "https://registry.yarnpkg.com/path-browserify/-/path-browserify-0.0.1.tgz#e6c4ddd7ed3aa27c68a20cc4e50e1a4ee83bbc4a"
@@ -3452,6 +3452,13 @@ resolve@^1.12.0, resolve@^1.9.0:
   dependencies:
     is-core-module "^2.2.0"
     path-parse "^1.0.6"
+
+rexs@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/rexs/-/rexs-1.0.3.tgz#510623b81b57fdd5ac85bc1fecee9a8aba9dc6eb"
+  integrity sha512-E681cJapWHrJ0oZhDypMfldEkRcQ9K0jHeWOMd3YRoSsYidLl80+B75gujxKpy7553zHTJyCl3wCjkumU7YI1Q==
+  dependencies:
+    parselib "^1.0.0"
 
 ripemd160@^2.0.0, ripemd160@^2.0.1:
   version "2.0.2"
